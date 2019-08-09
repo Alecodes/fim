@@ -5,7 +5,7 @@ import sqlite3
 root = Tk()
 root.geometry("1000x620")
 root.resizable(0, 0)
-root.title(" Freelancer's Invoice Manager")
+root.title(" Freelancer Financials Manager")
 
 #the database
 from peewee import *
