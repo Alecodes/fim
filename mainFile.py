@@ -23,7 +23,7 @@ class Writer(Model):
 class OrderDetails(Model):
     owner = ForeignKeyField(Writer, related_name ="persons")
     fName = CharField()
-    orderID = CharField(unique=True)
+    orderNumber = CharField(unique=True)
     pageNumbers=IntegerField()
     CPP =IntegerField()
     description=CharField()
